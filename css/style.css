@@ -1,0 +1,281 @@
+* {
+  vertical-align: top;
+  margin: 0px;
+  padding: 0px; }
+
+body {
+  font-family: 'Lato'; }
+
+.btn {
+  background-color: #ffb200;
+  text-transform: uppercase;
+  color: white;
+  padding: 15px 20px 15px 20px;
+  border: 2px solid #ffb200;
+  box-sizing: border-box;
+  font-size: 14.5px;
+  font-weight: 600;
+  margin-top: 17px;
+  transition: .5s;
+  display: inline-block; }
+
+.btn:hover {
+  background-color: white;
+  color: #ffb200;
+  transition: 0.5s; }
+
+.bar {
+  background-color: #ffb200;
+  height: 2px;
+  width: 60px;
+  margin: 20px 0px 20px 0px; }
+
+header {
+  overflow: hidden; }
+  header #topbar {
+    background-color: #222222;
+    height: 50px; }
+  header nav {
+    max-width: 1200px;
+    margin: 0 auto;
+    height: 80px; }
+    header nav .logo {
+      float: left;
+      margin-top: 10px; }
+    header nav #menu-n-responsive {
+      float: right; }
+      header nav #menu-n-responsive li {
+        display: inline-block;
+        margin-left: 17px;
+        line-height: 80px;
+        text-transform: uppercase;
+        font-size: 14px;
+        font-weight: 600; }
+      header nav #menu-n-responsive a {
+        color: #222222;
+        text-decoration: none; }
+      header nav #menu-n-responsive a:hover {
+        color: #ffb200; }
+    header nav .btn {
+      float: right;
+      margin-left: 80px; }
+
+#banner {
+  background-color: #222;
+  height: 480px; }
+
+#section1 {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 80px 0px 80px 0px;
+  overflow: hidden; }
+  #section1 img {
+    float: left;
+    width: 45%; }
+  #section1 article {
+    float: right;
+    width: 50%; }
+  #section1 h2 {
+    color: #222222;
+    font-size: 34px;
+    margin-top: 20px;
+    font-weight: 600; }
+  #section1 h3 {
+    font-size: 18px;
+    color: #333;
+    line-height: 25px;
+    letter-spacing: .6px; }
+  #section1 p {
+    color: #222222;
+    margin-top: 23px;
+    line-height: 24px; }
+
+#servicios {
+  background-color: #eee;
+  padding: 80px 0px 80px 0px;
+  background-image: url("../img/bg1.jpg");
+  background-size: cover;
+  background-position: center; }
+  #servicios section {
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: center; }
+    #servicios section h2 {
+      color: #222222;
+      font-size: 40px;
+      font-weight: 600; }
+    #servicios section h3 {
+      margin-top: 30px;
+      margin-bottom: 40px; }
+    #servicios section ul {
+      display: flex;
+      justify-content: space-between;
+      margin-top: 20px; }
+      #servicios section ul li {
+        display: inline-block;
+        width: 32%;
+        padding: 40px;
+        box-sizing: border-box;
+        background-color: white;
+        border: 2px solid #ddd;
+        border-radius: 3px;
+        height: 300px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        transition: .4s; }
+        #servicios section ul li article i {
+          color: #ffb200;
+          font-size: 60px; }
+        #servicios section ul li article h4 {
+          font-size: 24px;
+          color: #222222;
+          margin-top: 20px; }
+        #servicios section ul li article p {
+          font-size: 14px;
+          color: #999;
+          line-height: 20px;
+          margin-top: 15px; }
+      #servicios section ul li:hover {
+        border-color: #ffb200;
+        transition: .4s; }
+
+#about {
+  max-width: 1200px;
+  margin: 0 auto;
+  overflow: hidden;
+  padding: 90px 0px 90px 0px; }
+  #about article {
+    float: left;
+    width: 55%; }
+  #about img {
+    float: right;
+    width: 40%; }
+  #about h2 {
+    color: #222222;
+    font-size: 34px;
+    margin-top: 20px;
+    font-weight: 600; }
+  #about p {
+    color: #222222;
+    margin-top: 23px;
+    line-height: 24px; }
+  #about ul {
+    margin-top: 20px; }
+    #about ul li {
+      font-size: 15px;
+      color: #777; }
+      #about ul li i {
+        color: #ffb200;
+        width: 25px;
+        margin-top: 10px;
+        font-size: 16px; }
+  #about .btn {
+    margin-top: 40px;
+    margin-right: 5px; }
+
+#slogan {
+  background-color: #ffb200;
+  padding: 60px 0px 60px 0px;
+  text-align: center; }
+  #slogan h2 {
+    color: white;
+    font-size: 34px;
+    margin-top: 20px;
+    font-weight: 600; }
+  #slogan .bar {
+    background-color: white;
+    margin: 0 auto;
+    margin-top: 20px; }
+  #slogan p {
+    color: white;
+    line-height: 24px;
+    max-width: 700px;
+    margin: 0 auto;
+    margin-top: 17px; }
+  #slogan .btn {
+    background-color: white;
+    border-color: white;
+    margin-top: 30px;
+    color: #ffb200; }
+  #slogan .btn:hover {
+    background-color: transparent;
+    border-color: white;
+    color: white; }
+
+#count {
+  padding: 80px 0px 80px 0px;
+  background-color: #ccc;
+  background-image: url("../img/count.jpg");
+  background-size: cover;
+  background-position: center; }
+  #count ul {
+    max-width: 1000px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between; }
+    #count ul li {
+      text-align: center; }
+      #count ul li figure {
+        height: 50px;
+        width: 50px;
+        text-align: center;
+        border: 2px solid #ffb200;
+        margin: 0 auto; }
+        #count ul li figure i {
+          color: #ffb200;
+          line-height: 50px;
+          font-size: 30px; }
+      #count ul li h2 {
+        color: #ffb200;
+        font-size: 50px;
+        margin: 20px 0px 20px 0px; }
+      #count ul li h3 {
+        color: white;
+        font-size: 17px;
+        font-weight: 600; }
+
+#contacto {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 90px 0px 90px 0px;
+  text-align: center; }
+  #contacto h2 {
+    color: #222222;
+    font-size: 34px;
+    font-weight: 600; }
+  #contacto .bar {
+    margin: 0 auto;
+    margin-top: 20px;
+    margin-bottom: 20px; }
+  #contacto p {
+    margin-top: 23px;
+    line-height: 24px;
+    color: #777; }
+  #contacto form {
+    max-width: 600px;
+    margin: 0 auto;
+    margin-top: 40px; }
+    #contacto form input, #contacto form textarea {
+      padding: 12px;
+      font-size: 16px;
+      box-sizing: border-box;
+      width: 100%;
+      display: block;
+      margin-top: 10px;
+      border: none;
+      border-bottom: 1px solid #eee; }
+    #contacto form textarea {
+      min-height: 150px;
+      resize: none; }
+    #contacto form button {
+      margin-top: 20px; }
+
+footer {
+  background-color: #1d1d1d;
+  padding: 30px 0px 30px 0px;
+  color: white;
+  text-align: center;
+  font-size: 13px;
+  text-transform: uppercase;
+  font-weight: 600; }
