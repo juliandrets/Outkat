@@ -5,15 +5,12 @@
 	<nav>
 		<img src="img/logo.png" alt="" class="logo">
 
-		<div class="btn">Get a Quote?</div>
+		<div class="btn">Contactate!</div>
 
 		<ul id="menu-n-responsive">
-			<li><a href="#">Home</a></li>
-			<li><a href="#">About</a></li>
-			<li><a href="#">Services</a></li>
-			<li><a href="#">Pages</a></li>
-			<li><a href="#">Blog</a></li>
-			<li><a href="#">Contact</a></li>
+			<li><a href="#">Inicio</a></li>
+			<li><a href="#">Nosotros</a></li>
+			<li><a href="#">Servicios</a></li>
 		</ul>
 	</nav>
 </header>

@@ -8,7 +8,7 @@ body {
 	font-family: 'Lato';
 }
 
-$colorPrincipal : #ffb200;
+$colorPrincipal : #A72725;
 $colorSecundario : #222222;
 
 .btn {
@@ -52,7 +52,8 @@ header {
 
 		.logo {
 			float: left;
-			margin-top: 10px;
+			margin-top: 20px;
+			height: 40px;
 		}
 
 		#menu-n-responsive {
@@ -85,7 +86,6 @@ header {
 
 #banner {
 	background-color: #222;
-	height: 480px;
 }
 
 #section1 {
@@ -186,6 +186,12 @@ header {
 			li:hover {
 				border-color: $colorPrincipal;
 				transition:.4s;
+			}
+		}
+
+		.micro {
+			h4 {
+				font-size: 20px;
 			}
 		}
 	}

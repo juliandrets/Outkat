@@ -7,11 +7,11 @@ body {
   font-family: 'Lato'; }
 
 .btn {
-  background-color: #ffb200;
+  background-color: #A72725;
   text-transform: uppercase;
   color: white;
   padding: 15px 20px 15px 20px;
-  border: 2px solid #ffb200;
+  border: 2px solid #A72725;
   box-sizing: border-box;
   font-size: 14.5px;
   font-weight: 600;
@@ -21,11 +21,11 @@ body {
 
 .btn:hover {
   background-color: white;
-  color: #ffb200;
+  color: #A72725;
   transition: 0.5s; }
 
 .bar {
-  background-color: #ffb200;
+  background-color: #A72725;
   height: 2px;
   width: 60px;
   margin: 20px 0px 20px 0px; }
@@ -41,7 +41,8 @@ header {
     height: 80px; }
     header nav .logo {
       float: left;
-      margin-top: 10px; }
+      margin-top: 20px;
+      height: 40px; }
     header nav #menu-n-responsive {
       float: right; }
       header nav #menu-n-responsive li {
@@ -55,14 +56,13 @@ header {
         color: #222222;
         text-decoration: none; }
       header nav #menu-n-responsive a:hover {
-        color: #ffb200; }
+        color: #A72725; }
     header nav .btn {
       float: right;
       margin-left: 80px; }
 
 #banner {
-  background-color: #222;
-  height: 480px; }
+  background-color: #222; }
 
 #section1 {
   max-width: 1200px;
@@ -125,7 +125,7 @@ header {
         justify-content: center;
         transition: .4s; }
         #servicios section ul li article i {
-          color: #ffb200;
+          color: #A72725;
           font-size: 60px; }
         #servicios section ul li article h4 {
           font-size: 24px;
@@ -137,8 +137,10 @@ header {
           line-height: 20px;
           margin-top: 15px; }
       #servicios section ul li:hover {
-        border-color: #ffb200;
+        border-color: #A72725;
         transition: .4s; }
+    #servicios section .micro h4 {
+      font-size: 20px; }
 
 #about {
   max-width: 1200px;
@@ -166,7 +168,7 @@ header {
       font-size: 15px;
       color: #777; }
       #about ul li i {
-        color: #ffb200;
+        color: #A72725;
         width: 25px;
         margin-top: 10px;
         font-size: 16px; }
@@ -175,7 +177,7 @@ header {
     margin-right: 5px; }
 
 #slogan {
-  background-color: #ffb200;
+  background-color: #A72725;
   padding: 60px 0px 60px 0px;
   text-align: center; }
   #slogan h2 {
@@ -197,7 +199,7 @@ header {
     background-color: white;
     border-color: white;
     margin-top: 30px;
-    color: #ffb200; }
+    color: #A72725; }
   #slogan .btn:hover {
     background-color: transparent;
     border-color: white;
@@ -220,14 +222,14 @@ header {
         height: 50px;
         width: 50px;
         text-align: center;
-        border: 2px solid #ffb200;
+        border: 2px solid #A72725;
         margin: 0 auto; }
         #count ul li figure i {
-          color: #ffb200;
+          color: #A72725;
           line-height: 50px;
           font-size: 30px; }
       #count ul li h2 {
-        color: #ffb200;
+        color: #A72725;
         font-size: 50px;
         margin: 20px 0px 20px 0px; }
       #count ul li h3 {
@@ -279,3 +281,5 @@ footer {
   font-size: 13px;
   text-transform: uppercase;
   font-weight: 600; }
+
+/*# sourceMappingURL=style.css.map */
